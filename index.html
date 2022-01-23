@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+
+    <div id="clock">00:00</div>
+    
+
+    <div id ="text">오늘의 날씨 정보 : </div>
+    <div id = "weather">
+      <span></span>
+      <span></span>
+    </div>
+
+    <div id="content">
+      <form id="login-form" >
+        <div>로그인하기</div>
+        <input id="User-name" type="text" placeholder="아이디"  />
+        <input
+          id="Pass-word"
+          type="password"
+          placeholder="비밀번호"
+          autocomplete="on"
+        />
+         <button id="button" type="submit">로그인</button>
+      </form>
+    </div>
+
+    <div id="content2">
+      <form id="create-form">
+        <div>회원가입하기</div>
+        <input id="User-name2" type="text" placeholder="아이디" />
+        <input
+          id="Pass-word2"
+          type="password"
+          placeholder="비밀번호"
+          autocomplete="on"
+        />
+        <button id="button2" type="submit">저장</button>
+      </form>
+    </div>
+
+    <script src="background.js"></script>
+    <script src="weather.js"></script>
+  </body>
+</html>
